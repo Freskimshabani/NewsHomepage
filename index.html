@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Homepage</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/script.js" defer></script>
 </head>
 
@@ -15,11 +18,22 @@
             <h1>Logo</h1>
         </div>
         <div id="Links">
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">New</a>
-            <a href="" class="nav-link">Popular</a>
-            <a href="" class="nav-link">Trending</a>
-            <a href="" class="nav-link">Categories</a>
+            <a href="" class="nav-link link-style">Home</a>
+            <a href="" class="nav-link link-style">New</a>
+            <a href="" class="nav-link link-style">Popular</a>
+            <a href="" class="nav-link link-style">Trending</a>
+            <a href="" class="nav-link link-style">Categories</a>
+        </div>
+        <div id="MobileLinks">
+            <button id="MenuButton" class="menu-button-style"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div id="HiddenLinks" class="hide">
+            <button id="CloseMenuButton" class="menu-button-style"><i class="fa-solid fa-xmark"></i></button>
+            <a href="" class="mobile-nav-link link-style">Home</a>
+            <a href="" class="mobile-nav-link link-style">New</a>
+            <a href="" class="mobile-nav-link link-style">Popular</a>
+            <a href="" class="mobile-nav-link link-style">Trending</a>
+            <a href="" class="mobile-nav-link link-style">Categories</a>
         </div>
     </nav>
     <main>
@@ -38,7 +52,7 @@
                         quod aperiam saepe, incidunt distinctio quas sequi quia repudiandae, facilis quaerat expedita!
                         Optio consectetur officiis ea perferendis.
                     </p>
-                    <button>READ MORE</button>
+                    <button class="main-button">READ MORE</button>
                 </div>
             </header>
             <div id="SideContent">
